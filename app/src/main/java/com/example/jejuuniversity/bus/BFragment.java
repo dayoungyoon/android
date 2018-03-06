@@ -12,10 +12,10 @@ import com.example.jejuuniversity.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BbusFragment extends Fragment {
+public class BFragment extends Fragment {
 
 
-    public BbusFragment() {
+    public BFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class BbusFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bbus, container, false);
+        return inflater.inflate(R.layout.fragment_b, container, false);
     }
 
 }

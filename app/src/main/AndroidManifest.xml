@@ -22,10 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BusActivity" />
         <activity android:name=".LibrarySeatActivity" />
         <activity android:name=".FoodActivity" />
-        <activity android:name=".JejuUniversityActivity"></activity>
+        <activity android:name=".JejuUniversityActivity" />
+        <activity android:name=".BusActivity"></activity>
     </application>
 
 </manifest>

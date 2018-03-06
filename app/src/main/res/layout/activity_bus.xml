@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jejuuniversity.BusActivity"
-    android:orientation="vertical">
+    tools:context="com.example.jejuuniversity.BusActivity">
 
     <com.astuetz.PagerSlidingTabStrip
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="48dip"
         android:id="@+id/tabs"
-        app:pstsShouldExpand="true"
-        app:pstsIndicatorColor="@color/colorAccent"
-        app:pstsUnderlineColor="@color/colorAccent"
-        app:pstsDividerColor="@color/pinegreen"
-        ></com.astuetz.PagerSlidingTabStrip>
+        app:pstsIndicatorColor="@color/pinegreen"
+        app:pstsDividerColor="@color/colorAccent"></com.astuetz.PagerSlidingTabStrip>
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/pager"
-        android:requiresFadingEdge="horizontal"></android.support.v4.view.ViewPager>
-
-</LinearLayout>
+        android:layout_below="@id/tabs"
+        android:id="@+id/pager">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>
